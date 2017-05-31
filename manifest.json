@@ -1,5 +1,10 @@
 {
+ "lang": "en",
+ "background_color": "#ffffff",
  "name": "Rubber Dapp",
+ "short_name": "Rubber Dapp",
+ "display": "standalone",
+ "orientation": "portrait",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
