@@ -1,0 +1,28 @@
+{
+  "name": "rubber-dapp",
+  "version": "1.0.0",
+  "description": "Interactive Rubber Duck Debugging Software.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacog/rubber-dapp.git"
+  },
+  "keywords": [
+    "rubber",
+    "duck",
+    "debugging"
+  ],
+  "author": "pacog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pacog/rubber-dapp/issues"
+  },
+  "homepage": "https://github.com/pacog/rubber-dapp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}
