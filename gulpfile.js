@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const connect = require('gulp-connect');
+const ghPages = require('gulp-gh-pages');
 
 const APP_ROOT = 'app';
 
@@ -17,6 +18,11 @@ gulp.task('html', () => {
 
 gulp.task('watch', () => {
   gulp.watch([`./${APP_ROOT}/*.html`], ['html']);
+});
+
+gulp.task('deploy', () => {
+  return gulp.src(`./${APP_ROOT}/**/*`)
+    .pipe(ghPages());
 });
 
 gulp.task('default', ['connect', 'watch']);
